@@ -5,5 +5,5 @@ function niceLogger(){
 }
 
 module.exports = {
-    nicelogger
+    niceLogger
 }

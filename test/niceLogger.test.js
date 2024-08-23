@@ -1,7 +1,7 @@
+const { niceLogger} = require("../src/niceLogger.js");
 
-TextDecoderStream("niceLogger returns Hello World!", () => {
+test("niceLogger returns Hello World!", () => {
 
-    expect(true).toBe(true);
+    expect(niceLogger()).toBe("Hello World!");
 
-    
 });
