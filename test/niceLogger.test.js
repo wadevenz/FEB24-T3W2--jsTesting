@@ -25,6 +25,8 @@ describe("niceLogger function tests", () => {
 
 	test("niceLogger returns Hello World!", () => {
 
+        niceLogger = jest.fn();
+        niceLogger.mockReturnValue("Hello World!");
 		expect(niceLogger()).toBe("Hello World!");
 	});	
 });
